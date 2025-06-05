@@ -1,9 +1,6 @@
 import './index.css'
 
 const ProfilePage = (props) =>{
-    const {usersDetails} = props
-    let userDetails = usersDetails.length < 0 ? usersDetails[0] : {fullName : '', emailAddress : ''}
-    const {fullName , emailAddress} = userDetails
     return(
     <div className='landing-page align-center'>
         <div className='mobile-screen no-padding hide-content'>
@@ -14,8 +11,8 @@ const ProfilePage = (props) =>{
                 <div className='profile-and-name-box'>
                     <div className='profile-pic'><img className='camera-icon' src="https://res.cloudinary.com/df9k2fdct/image/upload/f_auto,q_auto/ppuallq0qyhm5cwejxzk" alt="camera-icon" /></div>
                     <div>
-                        <p className='profile-page-text profile-name'>{fullName}</p>
-                        <p className='profile-page-text profile-email'>{emailAddress}</p>
+                        <p className='profile-page-text profile-name'>Marry Doe</p>
+                        <p className='profile-page-text profile-email'>Marry@gmail.com</p>
                     </div>
                     
                 </div>
