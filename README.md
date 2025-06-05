@@ -1,4 +1,4 @@
-# PopX App[https://popx-5fbp.onrender.com/login-page]
+# PopX App[https://popx-5fbp.onrender.com]
 
 This is a simple React application built with both **class** and **functional** components. The app includes the following pages:
 
