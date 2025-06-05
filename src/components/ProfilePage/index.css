@@ -1,0 +1,64 @@
+.profile-page-text{
+    color:#1D2226;
+    font: Rubik;
+}
+.profile-page-header{
+    box-shadow: 0px 3px 6px #00000007;
+    padding-top: 1px;
+    height:68px;
+    background-color: #ffffff;
+}
+.header-title{
+    font-size:18px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-top: 8px;
+}
+.no-padding{
+    padding:0px;
+}
+.hide-content{
+    overflow: hidden;
+}
+.profile-and-name-box{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.profile-pic{
+    background-image: url("https://res.cloudinary.com/df9k2fdct/image/upload/f_auto,q_auto/ohgm8yeblsyqwe4ujrd8");
+    background-size: cover;
+    height:76px;
+    width:76px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.camera-icon{
+    height:23px;
+    width:21px;
+    border-radius: 50%;
+}
+.profile-page-description{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.profile-name{
+    padding:0px;
+    margin:0px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.profile-email{
+    padding:0px;
+    margin:0px;
+    font-size: 14px;
+}
+.empty-box{
+    border-bottom:1px dashed #CBCBCB;
+}

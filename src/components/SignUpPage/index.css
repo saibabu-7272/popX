@@ -1,0 +1,20 @@
+.col-space-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.required-icon{
+    color:red;
+    font-weight: bold;
+}
+.radio-btn{
+    background-color: blueviolet;
+}
+.padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.no-padding{
+    padding:0px;
+}

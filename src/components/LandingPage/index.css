@@ -1,0 +1,61 @@
+.landing-page{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height:100vh;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mobile-screen{
+    width: 375px;
+    height: 812px;
+    background-color: #F7F8F9;
+    border:1px solid #d3d0d0;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.align-center{
+    margin:auto;
+
+}
+.landing-page-container{
+    padding:20px;
+    font : Rubik;
+    color:#1D2226;
+}
+.landing-page-title{
+    font-size: 28px;
+    font-weight: bold;
+    font:Rubik;
+}
+.landing-page-description{
+    font-size: 18px;
+}
+
+.btn{
+    height:46px;
+    border:none;
+    outline: none;
+    width:100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font:Rubik;
+}
+.create-account-btn{
+    color:#ffffff;
+    font-weight: Medium;
+    background-color: #6C25FF;
+}
+.navigate-btn{
+    color:#1D2226;
+    background-color: #6C25FF4B;
+}
+.flex-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

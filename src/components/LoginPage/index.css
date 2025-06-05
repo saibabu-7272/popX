@@ -1,0 +1,42 @@
+.input-wrapper {
+  position: relative;
+  margin-bottom:15px;
+}
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border:1px solid #d3d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #F7F8F9;
+  color:#1D2226;
+}
+
+.input-label {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  background-color: #F7F8F9;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #4f00e2;
+}
+
+.text{
+  font:Rubik;
+  color:#1D2226;
+}
+
+.login-page-title{
+  font-size:28px;
+  font:Rubik;
+}
+.login-page-description{
+  opacity: 0.6;
+  font-size: 18px;
+}
+.error-msg{
+  color:red;
+  font-size: 12px;
+  font:Rubik;
+}
