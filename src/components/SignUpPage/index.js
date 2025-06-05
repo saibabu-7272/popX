@@ -73,8 +73,11 @@ class SignUpPage extends Component{
                      <input onClick={this.onUpdateAgencyStatus} value="yes" checked className='radio-btn' id="yes" type='radio' name="agency" /><label htmlFor='yes'>Yes</label>
                      <input onClick={this.onUpdateAgencyStatus} value="no" id="no" type='radio' name="agency" /><label htmlFor='no'>No</label>
                   </section>
-                  <button onClick={this.onCreateAccount} className='btn create-account-btn '>Create Account</button>
-                  {errorMsg !== '' && <p className='error-msg'>{errorMsg}</p>}
+                  <div>
+                     <button onClick={this.onCreateAccount} className='btn create-account-btn '>Create Account</button>
+                     {errorMsg !== '' && <p className='error-msg'>{errorMsg}</p>}
+                  </div>
+
             </div>
          </div>
    )
